@@ -48,12 +48,14 @@ internal static class MeshSyncEditorConstants {
         { "maya2020", new DCCToolInfo(DCCToolType.AUTODESK_MAYA, "2020") },
         { "maya2022", new DCCToolInfo(DCCToolType.AUTODESK_MAYA, "2022") },
         { "maya2023", new DCCToolInfo(DCCToolType.AUTODESK_MAYA, "2023") },
+        { "maya2024", new DCCToolInfo(DCCToolType.AUTODESK_MAYA, "2024") },
         { "3ds Max 2018", new DCCToolInfo(DCCToolType.AUTODESK_3DSMAX, "2018") },
         { "3ds Max 2019", new DCCToolInfo(DCCToolType.AUTODESK_3DSMAX, "2019") },
         { "3ds Max 2020", new DCCToolInfo(DCCToolType.AUTODESK_3DSMAX, "2020") },
         { "3ds Max 2021", new DCCToolInfo(DCCToolType.AUTODESK_3DSMAX, "2021") },
         { "3ds Max 2022", new DCCToolInfo(DCCToolType.AUTODESK_3DSMAX, "2022") },
         { "3ds Max 2023", new DCCToolInfo(DCCToolType.AUTODESK_3DSMAX, "2023") },
+        { "3ds Max 2024", new DCCToolInfo(DCCToolType.AUTODESK_3DSMAX, "2024") },
 
 #if UNITY_EDITOR_WIN
         { "Blender 2.90", new DCCToolInfo(DCCToolType.BLENDER, "2.90") },
@@ -65,6 +67,10 @@ internal static class MeshSyncEditorConstants {
         { "Blender 3.2", new DCCToolInfo(DCCToolType.BLENDER, "3.2") },
         { "Blender 3.3", new DCCToolInfo(DCCToolType.BLENDER, "3.3") },
         { "Blender 3.4", new DCCToolInfo(DCCToolType.BLENDER, "3.4") },
+        { "Blender 4.0", new DCCToolInfo(DCCToolType.BLENDER, "4.0") },
+        { "Blender 4.1", new DCCToolInfo(DCCToolType.BLENDER, "4.1") },
+        { "Blender 4.2", new DCCToolInfo(DCCToolType.BLENDER, "4.2") },
+        { "Blender 4.3", new DCCToolInfo(DCCToolType.BLENDER, "4.3") },
 #elif UNITY_EDITOR_OSX
         { "Blender/2.90", new DCCToolInfo(DCCToolType.BLENDER, "2.90" ) }, 
         { "Blender/2.91", new DCCToolInfo(DCCToolType.BLENDER, "2.91" ) }, 
@@ -75,6 +81,10 @@ internal static class MeshSyncEditorConstants {
         { "Blender/3.2", new DCCToolInfo(DCCToolType.BLENDER, "3.2" ) }, 
         { "Blender/3.3", new DCCToolInfo(DCCToolType.BLENDER, "3.3" ) }, 
         { "Blender/3.4", new DCCToolInfo(DCCToolType.BLENDER, "3.4" ) }, 
+        { "Blender/4.0", new DCCToolInfo(DCCToolType.BLENDER, "4.0" ) }, 
+        { "Blender/4.1", new DCCToolInfo(DCCToolType.BLENDER, "4.1" ) }, 
+        { "Blender/4.2", new DCCToolInfo(DCCToolType.BLENDER, "4.2" ) }, 
+        { "Blender/4.3", new DCCToolInfo(DCCToolType.BLENDER, "4.3" ) }, 
         { "Blender.app", new DCCToolInfo(DCCToolType.BLENDER, null ) },  //app directly
 #elif UNITY_EDITOR_LINUX
         { "blender-2.90.0-linux64", new DCCToolInfo(DCCToolType.BLENDER, "2.90" ) },
