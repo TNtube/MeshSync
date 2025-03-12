@@ -255,7 +255,7 @@ internal class DCCToolsSettingsTab : IMeshSyncSettingsTab {
         m_updateFooterStatusFinished = false;
         EditorCoroutineUtility.StartCoroutineOwnerless(UpdateFooterStatusLabel("Checking", FinalizeCheckPluginUpdates));
 
-        PackageRequestJobManager.CreateSearchRequest("https://github.dev/Unity-Technologies/MeshSyncDCCPlugins.git", /*offline=*/ false, (packageInfo) => {
+        PackageRequestJobManager.CreateSearchRequest("com.unity.meshsync.dcc-plugins", /*offline=*/ false, (packageInfo) => {
             //just in case
             if (packageInfo.Result.Length <= 0) {
                 Debug.LogError("[MeshSync] Failed to check DCC Plugin updates");
