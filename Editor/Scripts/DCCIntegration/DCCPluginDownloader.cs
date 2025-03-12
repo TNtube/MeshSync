@@ -138,6 +138,6 @@ internal class DCCPluginDownloader  {
     private readonly Queue<string> m_dccPlatformNames;
     private readonly List<string>  m_dccPluginLocalPaths;
 
-    private const string MESHSYNC_DCC_PLUGIN_PACKAGE = "com.unity.meshsync.dcc-plugins";
+    private const string MESHSYNC_DCC_PLUGIN_PACKAGE = "https://github.dev/Unity-Technologies/MeshSyncDCCPlugins";
 }
 } //end namespace
